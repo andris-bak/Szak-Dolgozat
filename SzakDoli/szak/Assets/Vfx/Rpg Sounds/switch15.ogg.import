@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dgc2qk5fwywhs"
+path="res://.godot/imported/switch15.ogg-978f5e376d418a074f4eaa32bd1b23ae.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/switch15.ogg"
+dest_files=["res://.godot/imported/switch15.ogg-978f5e376d418a074f4eaa32bd1b23ae.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://ctkmwl16vxmsf"
+path="res://.godot/imported/mouseclick1.ogg-389ba6008909fcf6642ff55e2a244eae.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/mouseclick1.ogg"
+dest_files=["res://.godot/imported/mouseclick1.ogg-389ba6008909fcf6642ff55e2a244eae.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

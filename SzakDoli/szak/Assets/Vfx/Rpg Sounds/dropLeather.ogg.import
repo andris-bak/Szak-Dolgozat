@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://mwm2sd0y1h1i"
+path="res://.godot/imported/dropLeather.ogg-d5574cc3090c4e63f951ae3110da572a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/dropLeather.ogg"
+dest_files=["res://.godot/imported/dropLeather.ogg-d5574cc3090c4e63f951ae3110da572a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bluylfegflm33"
+path="res://.godot/imported/bookFlip2.ogg-82600a22bd864794cd81b2a8bd457c6e.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/bookFlip2.ogg"
+dest_files=["res://.godot/imported/bookFlip2.ogg-82600a22bd864794cd81b2a8bd457c6e.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

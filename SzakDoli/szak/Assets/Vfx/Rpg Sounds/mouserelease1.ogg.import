@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://bjy3ubhcu2v5u"
+path="res://.godot/imported/mouserelease1.ogg-b8646c9e9e0a27def395fd0c5eff91ba.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/mouserelease1.ogg"
+dest_files=["res://.godot/imported/mouserelease1.ogg-b8646c9e9e0a27def395fd0c5eff91ba.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

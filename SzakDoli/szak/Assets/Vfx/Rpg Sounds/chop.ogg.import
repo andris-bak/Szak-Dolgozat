@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://hs2no11c5xw6"
+path="res://.godot/imported/chop.ogg-7fca2eae8536d7de23df990b293075d1.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/chop.ogg"
+dest_files=["res://.godot/imported/chop.ogg-7fca2eae8536d7de23df990b293075d1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

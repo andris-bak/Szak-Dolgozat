@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://dvxilfhut7egv"
+path="res://.godot/imported/mouserelease1.ogg-f64165b1dda3e5452ea590e9fee46570.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/UI Audio/mouserelease1.ogg"
+dest_files=["res://.godot/imported/mouserelease1.ogg-f64165b1dda3e5452ea590e9fee46570.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

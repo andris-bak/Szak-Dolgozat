@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://esfkt10lqkol"
+path="res://.godot/imported/click5.ogg-88b2d8c2bc9b65c41ae30fdc2f81b167.oggvorbisstr"
+
+[deps]
+
+source_file="res://Assets/Vfx/Rpg Sounds/click5.ogg"
+dest_files=["res://.godot/imported/click5.ogg-88b2d8c2bc9b65c41ae30fdc2f81b167.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
