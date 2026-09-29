@@ -1,18 +1,20 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1790690621
+::res://::1790692724
 icon.svg::CompressedTexture2D::1198502590920696552::1790592027::1790592050::1::::<><><>0<>0<>b75e533fe2b359466dfc673c0c4d0380<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1790684945
 ::res://Assets/Characters/::1790685744
 ::res://Assets/Characters/Lexi/::1790685747
 lexi.png::CompressedTexture2D::2383110801913235691::1790685747::1790685747::1::::<><><>0<>0<>e5121654e6b13d534b04915a9afb35af<>res://.godot/imported/lexi.png-85f81984c40b2a0601c8dc63e09b8022.ctex::
-::res://Assets/Characters/Soldier/::1790685448
+::res://Assets/Characters/Soldier/::1790693524
 Soldier.png::CompressedTexture2D::655132756957766963::1790685448::1790685448::1::::<><><>0<>0<>ac7f78dec054ef4a7515d13208221fe6<>res://.godot/imported/Soldier.png-04758288319dbf10305bd47e7d932a31.ctex::
 Soldier_Attack01.png::CompressedTexture2D::2540106582281317613::1790685448::1790685448::1::::<><><>0<>0<>7d228a1c803472ee2e49d8ee09935d58<>res://.godot/imported/Soldier_Attack01.png-6a1f655fc0559b6cc0d571d46c2deb2f.ctex::
 Soldier_Attack02.png::CompressedTexture2D::1578909231529217218::1790685448::1790685448::1::::<><><>0<>0<>cc67c24bffcda9e928146f563508c056<>res://.godot/imported/Soldier_Attack02.png-fdc967fabfa4b2ef93860ec0d3b6d80f.ctex::
 Soldier_Attack03.png::CompressedTexture2D::8086184165556712818::1790685448::1790685448::1::::<><><>0<>0<>8bf6630811f63868211ab26e10228f89<>res://.godot/imported/Soldier_Attack03.png-6a06454c02311b2b66b8128f6412406f.ctex::
 Soldier_Death.png::CompressedTexture2D::3416497190833095478::1790685448::1790685448::1::::<><><>0<>0<>c55ccf44b94156f6dbbde88eae339a34<>res://.godot/imported/Soldier_Death.png-e9054a8a6e037f174f7f58eed093ac79.ctex::
 Soldier_Hurt.png::CompressedTexture2D::8610416900109852429::1790685448::1790685448::1::::<><><>0<>0<>42f6ccd62f80709f721bde49020e4e7e<>res://.godot/imported/Soldier_Hurt.png-9d757827d1c7249081a92814d33b7cfa.ctex::
+Soldier_Idle (Left).png::CompressedTexture2D::2150957282955449991::1790693524::1790693524::1::::<><><>0<>0<>b307a84fcb2a254a0bb5ed1cee4c9177<>res://.godot/imported/Soldier_Idle (Left).png-216b8b59c65514d0237f02290ce6f841.ctex::
 Soldier_Idle.png::CompressedTexture2D::7592771502790551357::1790685448::1790685448::1::::<><><>0<>0<>a6348efe086a2bb630fabbc4b8c1e486<>res://.godot/imported/Soldier_Idle.png-b80441ac474fe027a38ad1a5e4c941cb.ctex::
+Soldier_Walk (Left).png::CompressedTexture2D::3623129431598432776::1790693477::1790693477::1::::<><><>0<>0<>cb4d107ccf95c2530670b0ca4fbf6505<>res://.godot/imported/Soldier_Walk (Left).png-a9dc5607cf190a901a22c9fdc837a729.ctex::
 Soldier_Walk.png::CompressedTexture2D::3609718011369977725::1790685448::1790685448::1::::<><><>0<>0<>6d35f0303e297262f21f829adacab2f3<>res://.godot/imported/Soldier_Walk.png-262a34bc137da120d989a67dcdb572a8.ctex::
 ::res://Assets/Enemies/::1790685755
 ::res://Assets/Enemies/Brute/::1790685735
@@ -201,12 +203,15 @@ switch35.ogg::AudioStreamOggVorbis::8546433136010308400::1790686083::1790686083:
 switch36.ogg::AudioStreamOggVorbis::419976855670041831::1790686083::1790686083::1::::<><><>0<>0<>865a0ea9d0d5fccdfe79cf422f012fad<>res://.godot/imported/switch36.ogg-919ed91d095e9b95be527a8cea7fbb9f.oggvorbisstr::
 switch37.ogg::AudioStreamOggVorbis::7394824003402492270::1790686083::1790686083::1::::<><><>0<>0<>c12c437b328ebb0af83cc40206a59a86<>res://.godot/imported/switch37.ogg-78358889cd1520fc0c32db627461df74.oggvorbisstr::
 switch38.ogg::AudioStreamOggVorbis::2347453695692972311::1790686083::1790686083::1::::<><><>0<>0<>fb18ed0df5c465e7b7b934a88c652377<>res://.godot/imported/switch38.ogg-44a2ab873c016718bb449b83c849ec2d.oggvorbisstr::
-::res://Scenes/::1790691940
+::res://Scenes/::1790692736
+::res://Scenes/Enemies/::1790692736
+::res://Scenes/Levels/::1790692943
 Main_menu.tscn::PackedScene::4996017578308070529::1790686111::0::1::::<><><>0<>0<><>::
 Military Base.tscn::PackedScene::8271508551028635597::1790686160::0::1::::<><><>0<>0<><>::
 Oriental Garden.tscn::PackedScene::3124540336514920263::1790686152::0::1::::<><><>0<>0<><>::
-Street.tscn::PackedScene::7950783403661162454::1790692717::0::1::::<><><>0<>0<><>::uid://b02epchacsrc4::::res://Scenes/TileSets/street.tres
-::res://Scenes/Levels/::0
+Street.tscn::PackedScene::7950783403661162454::1790692943::0::1::::<><><>0<>0<><>::uid://b02epchacsrc4::::res://Scenes/TileSets/street.tres
+::res://Scenes/Players/::1790693361
+Player (Soldier).tscn::PackedScene::3740654476034181742::1790693361::0::1::::<><><>0<>0<><>::uid://dgf83p7spgk6x::::res://Assets/Characters/Soldier/Soldier_Idle.png<>uid://brotr7w1aifg4::::res://Assets/Characters/Soldier/Soldier_Walk.png
 ::res://Scenes/TileSets/::1790690835
 military.tres::TileSet::113993708445187027::1790690835::0::1::::<><><>0<>0<><>::uid://cdlhsm0qvp2js::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_8x8_128.png<>uid://dbuslyeu76x32::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_1.png<>uid://dofjo318p8q5i::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_2.png<>uid://br2bbowxl4upt::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_3.png<>uid://chsg3fv5yykw0::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_FullSheet.png
 oriental_garden.tres::TileSet::4582702601257242438::1790690835::0::1::::<><><>0<>0<><>::uid://dnfgk8shxvrge::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens 16x16 (128x128) 2.png<>uid://crj3snjxrvbwo::::res://Assets/Map/Oriental Garden (Nes)/NEs Oriental Gardens Sheet.png<>uid://c72443dbamwrm::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 8x8 (128x128).png<>uid://eay7jgvvyb6i::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 1.png<>uid://cqwhsq47o2sa::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 3.png<>uid://caqqs4n8ncts::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 4.png
