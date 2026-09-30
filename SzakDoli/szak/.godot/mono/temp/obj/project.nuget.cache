@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "SxQUMQYoVd0=",
+  "success": true,
+  "projectFilePath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Felhasznalo\\.nuget\\packages\\godot.sourcegenerators\\4.5.1\\godot.sourcegenerators.4.5.1.nupkg.sha512",
+    "C:\\Users\\Felhasznalo\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
+    "C:\\Users\\Felhasznalo\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}
