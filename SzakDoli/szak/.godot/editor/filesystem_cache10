@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1790759984
+::res://::1790879617
 icon.svg::CompressedTexture2D::1198502590920696552::1790592027::1790592050::1::::<><><>0<>0<>b75e533fe2b359466dfc673c0c4d0380<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1790684945
 ::res://Assets/Characters/::1790685744
@@ -207,16 +207,16 @@ switch37.ogg::AudioStreamOggVorbis::7394824003402492270::1790686083::1790686083:
 switch38.ogg::AudioStreamOggVorbis::2347453695692972311::1790686083::1790686083::1::::<><><>0<>0<>fb18ed0df5c465e7b7b934a88c652377<>res://.godot/imported/switch38.ogg-44a2ab873c016718bb449b83c849ec2d.oggvorbisstr::
 ::res://Scenes/::1790692736
 ::res://Scenes/Enemies/::1790692736
-::res://Scenes/Levels/::1790759124
+::res://Scenes/Levels/::1790761273
 Main_menu.tscn::PackedScene::4996017578308070529::1790686111::0::1::::<><><>0<>0<><>::
 Military Base.tscn::PackedScene::8271508551028635597::1790686160::0::1::::<><><>0<>0<><>::
 Oriental Garden.tscn::PackedScene::3124540336514920263::1790686152::0::1::::<><><>0<>0<><>::
-Street.tscn::PackedScene::7950783403661162454::1790759124::0::1::::<><><>0<>0<><>::uid://b02epchacsrc4::::res://Scenes/TileSets/street.tres<>uid://btkabd2nkekmo::::res://Scenes/Players/Player (Soldier).tscn<>uid://8wywlp435q24::::res://Script/Player.cs
-::res://Scenes/Players/::1790759046
-Player (Soldier).tscn::PackedScene::3740654476034181742::1790759046::0::1::::<><><>0<>0<><>::uid://dgf83p7spgk6x::::res://Assets/Characters/Soldier/Soldier_Idle.png<>uid://liavep6fwdc3::::res://Assets/Characters/Soldier/Soldier_attack(left).png<>uid://5v67my6021rv::::res://Assets/Characters/Soldier/Soldier_Idle (Left).png<>uid://bcgpgjbtk7owj::::res://Assets/Characters/Soldier/Soldier_Attack01.png<>uid://brotr7w1aifg4::::res://Assets/Characters/Soldier/Soldier_Walk.png<>uid://brvcoayxciol1::::res://Assets/Characters/Soldier/Soldier_Walk (Left).png<>uid://cslpyjkc7dsiy::::res://Assets/Characters/Soldier/Soldier_Hurt(LEft).png<>uid://duw7kqpjn10e8::::res://Assets/Characters/Soldier/Soldier_Hurt.png
-::res://Scenes/TileSets/::1790756303
+Street.tscn::PackedScene::7950783403661162454::1790761273::0::1::::<><><>0<>0<><>::uid://b02epchacsrc4::::res://Scenes/TileSets/street.tres<>uid://btkabd2nkekmo::::res://Scenes/Players/Player (Soldier).tscn<>uid://8wywlp435q24::::res://Script/Player.cs
+::res://Scenes/Players/::1790761037
+Player (Soldier).tscn::PackedScene::3740654476034181742::1790761037::0::1::::<><><>0<>0<><>::uid://dgf83p7spgk6x::::res://Assets/Characters/Soldier/Soldier_Idle.png<>uid://liavep6fwdc3::::res://Assets/Characters/Soldier/Soldier_attack(left).png<>uid://5v67my6021rv::::res://Assets/Characters/Soldier/Soldier_Idle (Left).png<>uid://bcgpgjbtk7owj::::res://Assets/Characters/Soldier/Soldier_Attack01.png<>uid://brotr7w1aifg4::::res://Assets/Characters/Soldier/Soldier_Walk.png<>uid://brvcoayxciol1::::res://Assets/Characters/Soldier/Soldier_Walk (Left).png<>uid://cslpyjkc7dsiy::::res://Assets/Characters/Soldier/Soldier_Hurt(LEft).png<>uid://duw7kqpjn10e8::::res://Assets/Characters/Soldier/Soldier_Hurt.png
+::res://Scenes/TileSets/::1790761273
 military.tres::TileSet::113993708445187027::1790690835::0::1::::<><><>0<>0<><>::uid://cdlhsm0qvp2js::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_8x8_128.png<>uid://dbuslyeu76x32::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_1.png<>uid://dofjo318p8q5i::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_2.png<>uid://br2bbowxl4upt::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_3.png<>uid://chsg3fv5yykw0::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_FullSheet.png
 oriental_garden.tres::TileSet::4582702601257242438::1790690835::0::1::::<><><>0<>0<><>::uid://dnfgk8shxvrge::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens 16x16 (128x128) 2.png<>uid://crj3snjxrvbwo::::res://Assets/Map/Oriental Garden (Nes)/NEs Oriental Gardens Sheet.png<>uid://c72443dbamwrm::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 8x8 (128x128).png<>uid://eay7jgvvyb6i::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 1.png<>uid://cqwhsq47o2sa::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 3.png<>uid://caqqs4n8ncts::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 4.png
-street.tres::TileSet::4197149744746894997::1790756303::0::1::::<><><>0<>0<><>::uid://spfp2rbbjj0::::res://Assets/Map/Street/street_tileset.png
+street.tres::TileSet::4197149744746894997::1790761273::0::1::::<><><>0<>0<><>::uid://spfp2rbbjj0::::res://Assets/Map/Street/street_tileset.png
 ::res://Script/::1790757428
 Player.cs::CSharpScript::2363145248221847683::1790757428::0::1::::<>CharacterBody2D<><>0<>0<><>::

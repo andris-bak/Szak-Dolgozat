@@ -1,3 +1,16 @@
-[gd_scene format=3 uid="uid://dp31sjgebw6l2"]
+[gd_scene load_steps=3 format=3 uid="uid://dp31sjgebw6l2"]
+
+[ext_resource type="PackedScene" uid="uid://btkabd2nkekmo" path="res://Scenes/Players/Player (Soldier).tscn" id="1_01qcg"]
+[ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="2_85ceo"]
 
 [node name="MilitaryBase" type="Node2D"]
+
+[node name="BackGroundLayer" type="TileMapLayer" parent="."]
+
+[node name="GroundLayer" type="TileMapLayer" parent="."]
+
+[node name="CollisionLayer" type="TileMapLayer" parent="."]
+
+[node name="Player(soldier)" parent="." instance=ExtResource("1_01qcg")]
+position = Vector2(18, 530)
+script = ExtResource("2_85ceo")
