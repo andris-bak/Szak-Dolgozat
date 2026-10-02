@@ -1,13 +1,16 @@
-[gd_scene load_steps=3 format=3 uid="uid://dp31sjgebw6l2"]
+[gd_scene load_steps=4 format=3 uid="uid://dp31sjgebw6l2"]
 
 [ext_resource type="PackedScene" uid="uid://btkabd2nkekmo" path="res://Scenes/Players/Player (Soldier).tscn" id="1_01qcg"]
+[ext_resource type="TileSet" uid="uid://bvhpvo760c16" path="res://Scenes/TileSets/military.tres" id="1_85ceo"]
 [ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="2_85ceo"]
 
 [node name="MilitaryBase" type="Node2D"]
 
 [node name="BackGroundLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_85ceo")
 
 [node name="GroundLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_85ceo")
 
 [node name="CollisionLayer" type="TileMapLayer" parent="."]
 

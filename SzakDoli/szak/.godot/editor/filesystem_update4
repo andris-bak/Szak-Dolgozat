@@ -1,2 +1,5 @@
-res://Scenes/Levels/Military Base.tscn
 res://Scenes/TileSets/street.tres
+res://Scenes/TileSets/military.tres
+res://Scenes/TileSets/oriental_garden.tres
+res://Scenes/Levels/Oriental Garden.tscn
+res://Scenes/Levels/Military Base.tscn

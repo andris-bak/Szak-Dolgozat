@@ -1,3 +1,13 @@
-[gd_scene format=3 uid="uid://bkrsytus578t4"]
+[gd_scene load_steps=2 format=3 uid="uid://bkrsytus578t4"]
+
+[ext_resource type="TileSet" uid="uid://b6j5pbkhnfse5" path="res://Scenes/TileSets/oriental_garden.tres" id="1_dxawl"]
 
 [node name="OrientalGarden" type="Node2D"]
+
+[node name="BackGroundLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_dxawl")
+
+[node name="GroundLayer" type="TileMapLayer" parent="."]
+tile_set = ExtResource("1_dxawl")
+
+[node name="CollisionLayer" type="TileMapLayer" parent="."]
