@@ -1,8 +1,14 @@
-[gd_scene load_steps=4 format=4 uid="uid://dljoigvu253w1"]
+[gd_scene load_steps=6 format=4 uid="uid://dljoigvu253w1"]
 
 [ext_resource type="TileSet" uid="uid://b02epchacsrc4" path="res://Scenes/TileSets/street.tres" id="1_2fkbu"]
 [ext_resource type="PackedScene" uid="uid://btkabd2nkekmo" path="res://Scenes/Players/Player (Soldier).tscn" id="2_nk3et"]
 [ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="3_35cbx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_35cbx"]
+size = Vector2(20, 157)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_s6a08"]
+size = Vector2(2319.5, 16)
 
 [node name="Street" type="Node2D"]
 
@@ -19,5 +25,23 @@ tile_set = ExtResource("1_2fkbu")
 [node name="CollisonLayer" type="TileMapLayer" parent="."]
 
 [node name="Player(soldier)" parent="." instance=ExtResource("2_nk3et")]
-position = Vector2(18, 530)
+position = Vector2(37, 551)
 script = ExtResource("3_35cbx")
+
+[node name="WorldBounds" type="StaticBody2D" parent="."]
+
+[node name="LeftWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(11, 563.5)
+shape = SubResource("RectangleShape2D_35cbx")
+
+[node name="RightWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(2313, 564)
+shape = SubResource("RectangleShape2D_35cbx")
+
+[node name="TopWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(1162.25, 492)
+shape = SubResource("RectangleShape2D_s6a08")
+
+[node name="BottomWall" type="CollisionShape2D" parent="WorldBounds"]
+position = Vector2(1163, 636)
+shape = SubResource("RectangleShape2D_s6a08")
