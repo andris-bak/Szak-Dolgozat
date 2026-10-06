@@ -1,6 +1,7 @@
-[gd_scene load_steps=59 format=3 uid="uid://btkabd2nkekmo"]
+[gd_scene load_steps=62 format=3 uid="uid://btkabd2nkekmo"]
 
 [ext_resource type="Texture2D" uid="uid://dgf83p7spgk6x" path="res://Assets/Characters/Soldier/Soldier_Idle.png" id="1_2xvvr"]
+[ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="1_c0jjw"]
 [ext_resource type="Texture2D" uid="uid://liavep6fwdc3" path="res://Assets/Characters/Soldier/Soldier_attack(left).png" id="1_jvgx1"]
 [ext_resource type="Texture2D" uid="uid://5v67my6021rv" path="res://Assets/Characters/Soldier/Soldier_Idle (Left).png" id="1_kwxjy"]
 [ext_resource type="Texture2D" uid="uid://bcgpgjbtk7owj" path="res://Assets/Characters/Soldier/Soldier_Attack01.png" id="2_c0jjw"]
@@ -326,7 +327,7 @@ animations = [{
 "texture": SubResource("AtlasTexture_c0jjw")
 }],
 "loop": true,
-"name": &"Idle (Right)",
+"name": &"Idle1",
 "speed": 5.0
 }, {
 "frames": [{
@@ -391,15 +392,34 @@ animations = [{
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_n3bdk"]
 height = 26.0
 
-[node name="Player(soldier)" type="CharacterBody2D"]
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_jvgx1"]
+size = Vector2(16.5, 21)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_c0jjw"]
+size = Vector2(18, 14)
+
+[node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBox", "PlayerSprite")]
+script = ExtResource("1_c0jjw")
+AttackHitBox = NodePath("AttackHitBox")
+PlayerSprite = NodePath("AnimatedSprite2D")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xvrf0")
-animation = &"Walk (Right)"
+animation = &"Idle1"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_n3bdk")
+
+[node name="HurtBox" type="CollisionShape2D" parent="."]
+position = Vector2(-1, -1)
+shape = SubResource("RectangleShape2D_jvgx1")
+debug_color = Color(1, 0.0073951455, 0.07459927, 0.41960785)
+
+[node name="AttackHitBox" type="CollisionShape2D" parent="."]
+position = Vector2(13, 0)
+shape = SubResource("RectangleShape2D_c0jjw")
+debug_color = Color(0.8635196, 0.35790402, 0.05573096, 0.41960785)
 
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(23, 571)

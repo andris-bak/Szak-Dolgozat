@@ -1,5 +1,6 @@
-res://Scenes/Levels/Street.tscn
+res://Scenes/Players/Player (Soldier).tscn
 res://Scenes/TileSets/street.tres
 res://Scenes/TileSets/oriental_garden.tres
 res://Scenes/TileSets/military.tres
 res://Script/Player.cs
+res://Script/Main.cs
