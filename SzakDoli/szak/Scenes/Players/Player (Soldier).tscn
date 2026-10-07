@@ -1,4 +1,4 @@
-[gd_scene load_steps=62 format=3 uid="uid://btkabd2nkekmo"]
+[gd_scene load_steps=66 format=3 uid="uid://btkabd2nkekmo"]
 
 [ext_resource type="Texture2D" uid="uid://dgf83p7spgk6x" path="res://Assets/Characters/Soldier/Soldier_Idle.png" id="1_2xvvr"]
 [ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="1_c0jjw"]
@@ -246,7 +246,7 @@ animations = [{
 "duration": 1.0,
 "texture": SubResource("AtlasTexture_esl5r")
 }],
-"loop": true,
+"loop": false,
 "name": &"Attack (Right)",
 "speed": 10.0
 }, {
@@ -398,6 +398,20 @@ size = Vector2(16.5, 21)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0jjw"]
 size = Vector2(18, 14)
 
+[sub_resource type="Animation" id="Animation_c0jjw"]
+resource_name = "Idle1"
+
+[sub_resource type="Animation" id="Animation_75rcf"]
+resource_name = "AttackR"
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_w8dms"]
+_data = {
+&"AttackR": SubResource("Animation_75rcf"),
+&"Idle1": SubResource("Animation_c0jjw")
+}
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_78hgb"]
+
 [node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBox", "PlayerSprite")]
 script = ExtResource("1_c0jjw")
 AttackHitBox = NodePath("AttackHitBox")
@@ -405,7 +419,7 @@ PlayerSprite = NodePath("AnimatedSprite2D")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xvrf0")
-animation = &"Idle1"
+animation = &"Attack (Right)"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2(-1, 0)
@@ -430,3 +444,12 @@ limit_right = 1910
 limit_bottom = 70
 
 [node name="Marker2D" type="Marker2D" parent="."]
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+&"": SubResource("AnimationLibrary_w8dms")
+}
+
+[node name="AnimationTree" type="AnimationTree" parent="."]
+tree_root = SubResource("AnimationNodeStateMachine_78hgb")
+anim_player = NodePath("../AnimationPlayer")
