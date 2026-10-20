@@ -1,4 +1,4 @@
-[gd_scene load_steps=66 format=3 uid="uid://btkabd2nkekmo"]
+[gd_scene load_steps=78 format=3 uid="uid://btkabd2nkekmo"]
 
 [ext_resource type="Texture2D" uid="uid://dgf83p7spgk6x" path="res://Assets/Characters/Soldier/Soldier_Idle.png" id="1_2xvvr"]
 [ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="1_c0jjw"]
@@ -398,19 +398,69 @@ size = Vector2(16.5, 21)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_c0jjw"]
 size = Vector2(18, 14)
 
+[sub_resource type="Animation" id="Animation_75rcf"]
+resource_name = "AttackR"
+
 [sub_resource type="Animation" id="Animation_c0jjw"]
 resource_name = "Idle1"
 
-[sub_resource type="Animation" id="Animation_75rcf"]
-resource_name = "AttackR"
+[sub_resource type="Animation" id="Animation_w8dms"]
+resource_name = "WalkL"
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w8dms"]
 _data = {
 &"AttackR": SubResource("Animation_75rcf"),
-&"Idle1": SubResource("Animation_c0jjw")
+&"Idle1": SubResource("Animation_c0jjw"),
+&"WalkL": SubResource("Animation_w8dms")
 }
 
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_78hgb"]
+animation = &"AttackR"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3vrsq"]
+animation = &"AttackR"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_c0jjw"]
+animation = &"Idle1"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yi73o"]
+animation = &"Idle1"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_v6q5p"]
+animation = &"WalkL"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_rdmh2"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xvrf0"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_esnnp"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_h38ru"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_75rcf"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_w8dms"]
+switch_mode = 2
+advance_mode = 2
+
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_78hgb"]
+states/AttackR/node = SubResource("AnimationNodeAnimation_3vrsq")
+states/AttackR/position = Vector2(294, 146)
+"states/AttackR 2/node" = SubResource("AnimationNodeAnimation_78hgb")
+"states/AttackR 2/position" = Vector2(605, 100)
+states/Idle1/node = SubResource("AnimationNodeAnimation_yi73o")
+states/Idle1/position = Vector2(190, 100)
+"states/Idle1 2/node" = SubResource("AnimationNodeAnimation_c0jjw")
+"states/Idle1 2/position" = Vector2(761, 100)
+states/Start/position = Vector2(75, 100)
+states/WalkL/node = SubResource("AnimationNodeAnimation_v6q5p")
+states/WalkL/position = Vector2(443, 100)
+transitions = ["Start", "Idle1", SubResource("AnimationNodeStateMachineTransition_rdmh2"), "Idle1", "WalkL", SubResource("AnimationNodeStateMachineTransition_xvrf0"), "Idle1", "AttackR", SubResource("AnimationNodeStateMachineTransition_esnnp"), "WalkL", "AttackR 2", SubResource("AnimationNodeStateMachineTransition_h38ru"), "AttackR 2", "Idle1 2", SubResource("AnimationNodeStateMachineTransition_75rcf"), "Idle1 2", "End", SubResource("AnimationNodeStateMachineTransition_w8dms")]
 
 [node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBox", "PlayerSprite")]
 script = ExtResource("1_c0jjw")
