@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SxQUMQYoVd0=",
+  "dgSpecHash": "JEtMCClEVNo=",
   "success": true,
   "projectFilePath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
   "expectedPackageFiles": [
@@ -8,5 +8,15 @@
     "C:\\Users\\Felhasznalo\\.nuget\\packages\\godotsharp\\4.5.1\\godotsharp.4.5.1.nupkg.sha512",
     "C:\\Users\\Felhasznalo\\.nuget\\packages\\godotsharpeditor\\4.5.1\\godotsharpeditor.4.5.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json.",
+      "projectPath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
+      "warningLevel": 1,
+      "filePath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
+      "targetGraphs": []
+    }
+  ]
 }

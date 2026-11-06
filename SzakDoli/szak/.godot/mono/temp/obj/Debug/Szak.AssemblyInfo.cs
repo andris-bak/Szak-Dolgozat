@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Szak")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e58e343b633881ea065c3995a9b1d46a846e9f4d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a345768c520e9b2f03ba17564c890eb59cd612ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("Szak")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Szak")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
