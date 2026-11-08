@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj": {}
+    "K:\\asda\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj": {}
   },
   "projects": {
-    "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj": {
+    "K:\\asda\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
+        "projectUniqueName": "K:\\asda\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
         "projectName": "Szak",
-        "projectPath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
+        "projectPath": "K:\\asda\\Szak-Dolgozat\\SzakDoli\\szak\\Szak.csproj",
         "packagesPath": "C:\\Users\\Felhasznalo\\.nuget\\packages\\",
-        "outputPath": "K:\\SZKD\\Szak-Dolgozat\\SzakDoli\\szak\\.godot\\mono\\temp\\obj\\",
+        "outputPath": "K:\\asda\\Szak-Dolgozat\\SzakDoli\\szak\\.godot\\mono\\temp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

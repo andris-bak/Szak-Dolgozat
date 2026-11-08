@@ -15,7 +15,7 @@ public partial class Player : CharacterBody2D
 	{
 		if (PlayerSprite != null)
 		{
-		 	PlayerSprite.Play("Idle1");
+		 	PlayerSprite.Play("Idle (Right)");
 		}
 	}
 	
