@@ -1,11 +1,11 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1794178527
+::res://::1794782942
 icon.svg::CompressedTexture2D::1198502590920696552::1794178443::1794178530::1::::<><><>0<>0<>b75e533fe2b359466dfc673c0c4d0380<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1794178443
 ::res://Assets/Characters/::1794178443
-::res://Assets/Characters/Lexi/::1794178443
+::res://Assets/Characters/Lexi/::1794178530
 lexi.png::CompressedTexture2D::2383110801913235691::1794178443::1794178530::1::::<><><>0<>0<>e5121654e6b13d534b04915a9afb35af<>res://.godot/imported/lexi.png-85f81984c40b2a0601c8dc63e09b8022.ctex::
-::res://Assets/Characters/Soldier/::1794178443
+::res://Assets/Characters/Soldier/::1794178530
 Soldier.png::CompressedTexture2D::655132756957766963::1794178443::1794178530::1::::<><><>0<>0<>ac7f78dec054ef4a7515d13208221fe6<>res://.godot/imported/Soldier.png-04758288319dbf10305bd47e7d932a31.ctex::
 Soldier_Attack01.png::CompressedTexture2D::2540106582281317613::1794178443::1794178530::1::::<><><>0<>0<>7d228a1c803472ee2e49d8ee09935d58<>res://.godot/imported/Soldier_Attack01.png-6a1f655fc0559b6cc0d571d46c2deb2f.ctex::
 Soldier_Attack02.png::CompressedTexture2D::1578909231529217218::1794178443::1794178530::1::::<><><>0<>0<>cc67c24bffcda9e928146f563508c056<>res://.godot/imported/Soldier_Attack02.png-fdc967fabfa4b2ef93860ec0d3b6d80f.ctex::
@@ -20,9 +20,9 @@ Soldier_Idle.png::CompressedTexture2D::7592771502790551357::1794178443::17941785
 Soldier_Walk (Left).png::CompressedTexture2D::3623129431598432776::1794178443::1794178530::1::::<><><>0<>0<>cb4d107ccf95c2530670b0ca4fbf6505<>res://.godot/imported/Soldier_Walk (Left).png-a9dc5607cf190a901a22c9fdc837a729.ctex::
 Soldier_Walk.png::CompressedTexture2D::3609718011369977725::1794178443::1794178530::1::::<><><>0<>0<>6d35f0303e297262f21f829adacab2f3<>res://.godot/imported/Soldier_Walk.png-262a34bc137da120d989a67dcdb572a8.ctex::
 ::res://Assets/Enemies/::1794178443
-::res://Assets/Enemies/Brute/::1794178443
+::res://Assets/Enemies/Brute/::1794178530
 brute_01.png::CompressedTexture2D::1184285964363287176::1794178443::1794178530::1::::<><><>0<>0<>c18c7b026cc02232ccba267e9fe30d01<>res://.godot/imported/brute_01.png-a1a61e9faf51c07391a54de5da089274.ctex::
-::res://Assets/Enemies/Orc/::1794178443
+::res://Assets/Enemies/Orc/::1794178530
 Orc.png::CompressedTexture2D::7038403514266698695::1794178443::1794178530::1::::<><><>0<>0<>ec88eded936c454d24ee2eaf599fa2c8<>res://.godot/imported/Orc.png-fc559ca9db6a8339e8d451c2cd387147.ctex::
 Orc_Attack01.png::CompressedTexture2D::8993109995480479362::1794178443::1794178530::1::::<><><>0<>0<>d5fade6c6ef48b72bc4195a58e934982<>res://.godot/imported/Orc_Attack01.png-091e6003a892174a66c5e32d9d383f21.ctex::
 Orc_Attack02.png::CompressedTexture2D::1700228616395465909::1794178443::1794178530::1::::<><><>0<>0<>6408c7f543a78c1f8564dfb486aeb842<>res://.godot/imported/Orc_Attack02.png-40909859e9edaa29866518c9c6d82d83.ctex::
@@ -30,16 +30,16 @@ Orc_Death.png::CompressedTexture2D::7276376855837468943::1794178443::1794178530:
 Orc_Hurt.png::CompressedTexture2D::5503519727328742236::1794178443::1794178530::1::::<><><>0<>0<>ca8b9c8a17971307de2bee4ff8a50da3<>res://.godot/imported/Orc_Hurt.png-9688f77781de6a0590df1496954a4e84.ctex::
 Orc_Idle.png::CompressedTexture2D::3398670723532257267::1794178443::1794178530::1::::<><><>0<>0<>ecb1b4a75e365b3eba48676ee1f81654<>res://.godot/imported/Orc_Idle.png-817850799e4742f9ed9f743d8a1ee1d2.ctex::
 Orc_Walk.png::CompressedTexture2D::1108502496892088352::1794178443::1794178530::1::::<><><>0<>0<>2cdc1853627fa0274541f75306d55b92<>res://.godot/imported/Orc_Walk.png-73e8967767dc211a87bdd894bd0b1980.ctex::
-::res://Assets/Enemies/Thug/::1794178443
+::res://Assets/Enemies/Thug/::1794178530
 thug_01.png::CompressedTexture2D::4049462558292392090::1794178443::1794178530::1::::<><><>0<>0<>727f2badf4bdb907093941f01c9b126c<>res://.godot/imported/thug_01.png-445474bbaa8c15c9c49cf8db0a0c7751.ctex::
 ::res://Assets/Map/::1794178443
-::res://Assets/Map/Brawler Military/::1794178443
+::res://Assets/Map/Brawler Military/::1794178530
 NES_Brawler_TileSet_8x8_128.png::CompressedTexture2D::5006573886490573240::1794178443::1794178530::1::::<><><>0<>0<>95bfb90c7320443a3d89f78e5d215ec4<>res://.godot/imported/NES_Brawler_TileSet_8x8_128.png-8557c9c424b2a3a950931466f8eae450.ctex::
 NES_Brawler_TileSet_16x16_128_1.png::CompressedTexture2D::7271852267093619623::1794178443::1794178530::1::::<><><>0<>0<>ce41109a94ae20514e23706678a75318<>res://.godot/imported/NES_Brawler_TileSet_16x16_128_1.png-a70b718e584593e6a7a7b52589447fc8.ctex::
 NES_Brawler_TileSet_16x16_128_2.png::CompressedTexture2D::8152800717171071580::1794178443::1794178530::1::::<><><>0<>0<>50ef906837795f11cbded118ed37e0a2<>res://.godot/imported/NES_Brawler_TileSet_16x16_128_2.png-d50c91ed4a79369648784c49fa819d88.ctex::
 NES_Brawler_TileSet_16x16_128_3.png::CompressedTexture2D::3635432498059413977::1794178443::1794178530::1::::<><><>0<>0<>4df782db1d880cc1db74ed0cdc2833ce<>res://.godot/imported/NES_Brawler_TileSet_16x16_128_3.png-e27471280cea929a324e97f27b3fbdc8.ctex::
 NES_Brawler_TileSet_FullSheet.png::CompressedTexture2D::5301736673065174509::1794178443::1794178530::1::::<><><>0<>0<>2c4d1b307fcd2be96f7068f945ee5fde<>res://.godot/imported/NES_Brawler_TileSet_FullSheet.png-72638ce4da195b1ebfe9feed85870fe8.ctex::
-::res://Assets/Map/Oriental Garden (Nes)/::1794178443
+::res://Assets/Map/Oriental Garden (Nes)/::1794178530
 NES Oriental Gardens 16x16 (128x128) 2.png::CompressedTexture2D::8082422828466333964::1794178443::1794178530::1::::<><><>0<>0<>d200e75f0a34f234ffd2032375c8354c<>res://.godot/imported/NES Oriental Gardens 16x16 (128x128) 2.png-a9bc0a9af8e71b4297af90c7e3589e09.ctex::
 NEs Oriental Gardens Sheet.png::CompressedTexture2D::5986364026882391126::1794178443::1794178530::1::::<><><>0<>0<>69f8de83eb271f77108499d1819ce13d<>res://.godot/imported/NEs Oriental Gardens Sheet.png-6434c49b77cc7d034bb926c82d793802.ctex::
 NES Oriental Gardens Tile Set 8x8 (128x128).png::CompressedTexture2D::7076436619310472166::1794178443::1794178530::1::::<><><>0<>0<>d9f4a84d1919e95fad78bafc47491d90<>res://.godot/imported/NES Oriental Gardens Tile Set 8x8 (128x128).png-5bf5491d5b0a4e6ac388c83422e93944.ctex::
@@ -47,10 +47,10 @@ NES Oriental Gardens Tile Set 16x16 (128x128) 1.png::CompressedTexture2D::282270
 NES Oriental Gardens Tile Set 16x16 (128x128) 3.png::CompressedTexture2D::174756977237363040::1794178443::1794178530::1::::<><><>0<>0<>c0aee2d9adf5c1b1a0af1adb1feed8d6<>res://.godot/imported/NES Oriental Gardens Tile Set 16x16 (128x128) 3.png-7a4191ae434d248d2326d8d9624e14dd.ctex::
 NES Oriental Gardens Tile Set 16x16 (128x128) 4.png::CompressedTexture2D::141378722717710712::1794178443::1794178530::1::::<><><>0<>0<>99b09217e00436fb521ffacd7f3197fa<>res://.godot/imported/NES Oriental Gardens Tile Set 16x16 (128x128) 4.png-0573f56497cb7ac9ee29e5ee343b3d4c.ctex::
 NES Oriental Gardens Tile Set 16x16 Sheet.png::CompressedTexture2D::6429027003447942022::1794178443::1794178530::1::::<><><>0<>0<>ebe015b593a6d4cf57f524ec0c577ac6<>res://.godot/imported/NES Oriental Gardens Tile Set 16x16 Sheet.png-c0fb2bb9cdd5ff31c2ff2e1e7b90042e.ctex::
-::res://Assets/Map/Street/::1794178443
+::res://Assets/Map/Street/::1794178530
 street_tileset.png::CompressedTexture2D::38079313767857383::1794178443::1794178530::1::::<><><>0<>0<>e3f75970e79a3ff32992db94f6b2ffee<>res://.godot/imported/street_tileset.png-c00ebe3efd699f824135a7db0ef035c9.ctex::
 ::res://Assets/Vfx/::1794178443
-::res://Assets/Vfx/Rpg Sounds/::1794178443
+::res://Assets/Vfx/Rpg Sounds/::1794178530
 beltHandle1.ogg::AudioStreamOggVorbis::4410568779922687406::1794178443::1794178529::1::::<><><>0<>0<>0b4eec27e3610f21b39ca189676fea03<>res://.godot/imported/beltHandle1.ogg-28a038be81ffbe49d79f6f78e18fea4e.oggvorbisstr::
 beltHandle2.ogg::AudioStreamOggVorbis::9114999871423661971::1794178443::1794178529::1::::<><><>0<>0<>c00f459c62efce9285f11a5fa46c7ba4<>res://.godot/imported/beltHandle2.ogg-28ef398b4fb96b8e74032198b933304c.oggvorbisstr::
 bookClose.ogg::AudioStreamOggVorbis::2943302914950885337::1794178443::1794178529::1::::<><><>0<>0<>a9608e2cdb56b39230b6003dd1f4769e<>res://.godot/imported/bookClose.ogg-c6efd21405b087e69677885941765490.oggvorbisstr::
@@ -153,7 +153,7 @@ switch35.ogg::AudioStreamOggVorbis::619682024065875528::1794178443::1794178529::
 switch36.ogg::AudioStreamOggVorbis::1756298925659042749::1794178443::1794178528::1::::<><><>0<>0<>a89e2e0d8325c97fc54dd0045b64d801<>res://.godot/imported/switch36.ogg-38b8cb89ea52ff990b30bfbb9798b6e7.oggvorbisstr::
 switch37.ogg::AudioStreamOggVorbis::3137451434413135029::1794178443::1794178529::1::::<><><>0<>0<>56f25884c05e8cefa765add25436cf09<>res://.godot/imported/switch37.ogg-0eb908fb55e0f1c99ef79a52ed842449.oggvorbisstr::
 switch38.ogg::AudioStreamOggVorbis::1309031890472912456::1794178443::1794178528::1::::<><><>0<>0<>21c14bbf76dc9ce6a03bb7a812fc5e92<>res://.godot/imported/switch38.ogg-8c0878b045bdac50e896b86d4c66af15.oggvorbisstr::
-::res://Assets/Vfx/UI Audio/::1794178443
+::res://Assets/Vfx/UI Audio/::1794178529
 click1.ogg::AudioStreamOggVorbis::5917810290631873030::1794178443::1794178529::1::::<><><>0<>0<>5578aef734ebbcd637f934c8e2117842<>res://.godot/imported/click1.ogg-a0631db6476c415cc68b4b6ec16ecf2f.oggvorbisstr::
 click2.ogg::AudioStreamOggVorbis::5055748402676376393::1794178443::1794178529::1::::<><><>0<>0<>c50be606d0ad05b033f5484486b4c4ec<>res://.godot/imported/click2.ogg-81811efdd73b7c9b1d8e73a475e51b88.oggvorbisstr::
 click3.ogg::AudioStreamOggVorbis::2901617646164383778::1794178443::1794178529::1::::<><><>0<>0<>89fe6d9f8d3fca00e3679f7d15d5d0b0<>res://.godot/imported/click3.ogg-443b0b96ec99779c7556a579d303fd3a.oggvorbisstr::
@@ -215,14 +215,14 @@ Main_menu.tscn::PackedScene::4996017578308070529::1794178443::0::1::::<><><>0<>0
 Military Base.tscn::PackedScene::8271508551028635597::1794178443::0::1::::<><><>0<>0<><>::uid://btkabd2nkekmo::::res://Scenes/Players/Player (Soldier).tscn<>uid://bvhpvo760c16::::res://Scenes/TileSets/military.tres<>uid://8wywlp435q24::::res://Script/Player.cs
 Oriental Garden.tscn::PackedScene::3124540336514920263::1794178443::0::1::::<><><>0<>0<><>::uid://b6j5pbkhnfse5::::res://Scenes/TileSets/oriental_garden.tres
 Street.tscn::PackedScene::7950783403661162454::1794178443::0::1::::<><><>0<>0<><>::uid://b02epchacsrc4::::res://Scenes/TileSets/street.tres<>uid://xjyywnbtxb70::::res://Script/Main.cs<>uid://btkabd2nkekmo::::res://Scenes/Players/Player (Soldier).tscn
-::res://Scenes/Players/::1794178443
+::res://Scenes/Players/::1794572443
 Player (Lexi).tscn::PackedScene::7900760507150741775::1794178443::0::1::::<><><>0<>0<><>::
-Player (Soldier).tscn::PackedScene::3740654476034181742::1794178443::0::1::::<><><>0<>0<><>::uid://dgf83p7spgk6x::::res://Assets/Characters/Soldier/Soldier_Idle.png<>uid://8wywlp435q24::::res://Script/Player.cs<>uid://liavep6fwdc3::::res://Assets/Characters/Soldier/Soldier_attack(left).png<>uid://5v67my6021rv::::res://Assets/Characters/Soldier/Soldier_Idle (Left).png<>uid://bcgpgjbtk7owj::::res://Assets/Characters/Soldier/Soldier_Attack01.png<>uid://brotr7w1aifg4::::res://Assets/Characters/Soldier/Soldier_Walk.png<>uid://brvcoayxciol1::::res://Assets/Characters/Soldier/Soldier_Walk (Left).png<>uid://cslpyjkc7dsiy::::res://Assets/Characters/Soldier/Soldier_Hurt(LEft).png<>uid://dewwpyok0lwsn::::res://Assets/Characters/Soldier/Soldier_Death.(Left)png.png<>uid://duw7kqpjn10e8::::res://Assets/Characters/Soldier/Soldier_Hurt.png<>uid://bow8hejgwycpq::::res://Assets/Characters/Soldier/Soldier_Death.png
-::res://Scenes/TileSets/::1794178443
-military.tres::TileSet::113993708445187027::1794178443::0::1::::<><><>0<>0<><>::uid://cdlhsm0qvp2js::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_8x8_128.png<>uid://dbuslyeu76x32::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_1.png<>uid://dofjo318p8q5i::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_2.png<>uid://br2bbowxl4upt::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_3.png<>uid://chsg3fv5yykw0::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_FullSheet.png
-oriental_garden.tres::TileSet::4582702601257242438::1794178443::0::1::::<><><>0<>0<><>::uid://dnfgk8shxvrge::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens 16x16 (128x128) 2.png<>uid://crj3snjxrvbwo::::res://Assets/Map/Oriental Garden (Nes)/NEs Oriental Gardens Sheet.png<>uid://c72443dbamwrm::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 8x8 (128x128).png<>uid://eay7jgvvyb6i::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 1.png<>uid://cqwhsq47o2sa::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 3.png<>uid://caqqs4n8ncts::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 4.png
-street.tres::TileSet::4197149744746894997::1794178443::0::1::::<><><>0<>0<><>::uid://spfp2rbbjj0::::res://Assets/Map/Street/street_tileset.png
-::res://Script/::1794178443
+Player (Soldier).tscn::PackedScene::3740654476034181742::1794572443::0::1::::<><><>0<>0<><>::uid://dgf83p7spgk6x::::res://Assets/Characters/Soldier/Soldier_Idle.png<>uid://8wywlp435q24::::res://Script/Player.cs<>uid://liavep6fwdc3::::res://Assets/Characters/Soldier/Soldier_attack(left).png<>uid://5v67my6021rv::::res://Assets/Characters/Soldier/Soldier_Idle (Left).png<>uid://bcgpgjbtk7owj::::res://Assets/Characters/Soldier/Soldier_Attack01.png<>uid://brotr7w1aifg4::::res://Assets/Characters/Soldier/Soldier_Walk.png<>uid://brvcoayxciol1::::res://Assets/Characters/Soldier/Soldier_Walk (Left).png<>uid://cslpyjkc7dsiy::::res://Assets/Characters/Soldier/Soldier_Hurt(LEft).png<>uid://dewwpyok0lwsn::::res://Assets/Characters/Soldier/Soldier_Death.(Left)png.png<>uid://duw7kqpjn10e8::::res://Assets/Characters/Soldier/Soldier_Hurt.png<>uid://bow8hejgwycpq::::res://Assets/Characters/Soldier/Soldier_Death.png
+::res://Scenes/TileSets/::1794572444
+military.tres::TileSet::113993708445187027::1794572443::0::1::::<><><>0<>0<><>::uid://cdlhsm0qvp2js::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_8x8_128.png<>uid://dbuslyeu76x32::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_1.png<>uid://dofjo318p8q5i::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_2.png<>uid://br2bbowxl4upt::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_16x16_128_3.png<>uid://chsg3fv5yykw0::::res://Assets/Map/Brawler Military/NES_Brawler_TileSet_FullSheet.png
+oriental_garden.tres::TileSet::4582702601257242438::1794572443::0::1::::<><><>0<>0<><>::uid://dnfgk8shxvrge::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens 16x16 (128x128) 2.png<>uid://crj3snjxrvbwo::::res://Assets/Map/Oriental Garden (Nes)/NEs Oriental Gardens Sheet.png<>uid://c72443dbamwrm::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 8x8 (128x128).png<>uid://eay7jgvvyb6i::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 1.png<>uid://cqwhsq47o2sa::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 3.png<>uid://caqqs4n8ncts::::res://Assets/Map/Oriental Garden (Nes)/NES Oriental Gardens Tile Set 16x16 (128x128) 4.png
+street.tres::TileSet::4197149744746894997::1794572443::0::1::::<><><>0<>0<><>::uid://spfp2rbbjj0::::res://Assets/Map/Street/street_tileset.png
+::res://Script/::1794178862
 IState.cs::CSharpScript::2103763764706695908::1794178443::0::1::::<><><>0<>0<><>::
 Main.cs::CSharpScript::1634424046009288101::1794178443::0::1::::<>Node<><>0<>0<><>::
-Player.cs::CSharpScript::2363145248221847683::1794178443::0::1::::<>CharacterBody2D<><>0<>0<><>::
+Player.cs::CSharpScript::2363145248221847683::1794178862::0::1::::<>CharacterBody2D<><>0<>0<><>::
