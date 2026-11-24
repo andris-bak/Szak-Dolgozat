@@ -5,8 +5,9 @@ public partial class Player : CharacterBody2D
 {
 	private bool isAttacking;
 	private bool attackHitboxActive; 
-	private FighterState fighterState = FighterState.Idle;
 	private bool attackAnimationStarted;
+	private bool facingRight = true;
+	private FighterState fighterState = FighterState.Idle;
 	
 	private AnimationTree animationTree;
 	private AnimationNodeStateMachinePlayback animationStateMachine;
@@ -30,12 +31,15 @@ public partial class Player : CharacterBody2D
 		if(isAttacking)
 		{
 			StringName currentAnimationState = animationStateMachine.GetCurrentNode();
+			bool inAttackState = 
+				currentAnimationState == "Attack_Right" ||
+				currentAnimationState == "Attack_Left";
 			
-			if(currentAnimationState == "Attack_Right")
+			if(inAttackState)
 			{
 				attackAnimationStarted = true;
 			}
-			if(attackAnimationStarted && currentAnimationState != "Attack_Right")
+			if(attackAnimationStarted && !inAttackState)
 			{
 				isAttacking = false;
 				attackAnimationStarted = false;
@@ -56,16 +60,27 @@ public partial class Player : CharacterBody2D
 			"move_down"
 		);
 		
+		if(direction.X > 0)
+		{
+			facingRight = true;
+		}
+		else if(direction.X < 0)
+		{
+			facingRight = false;
+		}
+		
 		Velocity = direction * Speed;
 		MoveAndSlide();
 		
 		if(direction != Vector2.Zero)
 		{
-			animationStateMachine.Travel("Walk_Right");
+			animationStateMachine.Travel(
+				facingRight ? "Walk_Right" : "Walk_Left");
 		}
 		else
 		{
-			animationStateMachine.Travel("Idle_Right");
+			animationStateMachine.Travel(
+				facingRight? "Idle_Right" : "Idle_Left");
 		}
 	}
 	
@@ -85,7 +100,7 @@ public partial class Player : CharacterBody2D
 		attackAnimationStarted = false;
 		fighterState = FighterState.Attacking;
 		
-		animationStateMachine.Travel("Attack_Right");
-		
+		animationStateMachine.Travel(
+			facingRight ? "Attack_Right" : "Attack_Left");
 	}
 }

@@ -1,7 +1,6 @@
 using Godot;
 using System;
 
-
 	public enum FighterState
 	{
 		Idle,

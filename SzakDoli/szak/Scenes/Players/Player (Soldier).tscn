@@ -1,4 +1,4 @@
-[gd_scene load_steps=94 format=3 uid="uid://btkabd2nkekmo"]
+[gd_scene load_steps=106 format=3 uid="uid://btkabd2nkekmo"]
 
 [ext_resource type="Texture2D" uid="uid://dgf83p7spgk6x" path="res://Assets/Characters/Soldier/Soldier_Idle.png" id="1_2xvvr"]
 [ext_resource type="Script" uid="uid://8wywlp435q24" path="res://Script/Player.cs" id="1_c0jjw"]
@@ -786,11 +786,20 @@ _data = {
 &"Walk_Right": SubResource("Animation_yi73o")
 }
 
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nngsn"]
+animation = &"Attack_Left"
+
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_w8dms"]
 animation = &"Attack_Right"
 
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_yi73o"]
+animation = &"Idle_Left"
+
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_78hgb"]
 animation = &"Idle_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_v6q5p"]
+animation = &"Walk_Left"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3vrsq"]
 animation = &"Walk_Right"
@@ -810,15 +819,42 @@ advance_mode = 2
 switch_mode = 2
 advance_mode = 2
 
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_rdmh2"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xvrf0"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_esnnp"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_h38ru"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_nh0tm"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_baip7"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_7d13t"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ex4tk"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_rjuvg"]
+
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_xvrf0"]
+states/Attack_Left/node = SubResource("AnimationNodeAnimation_nngsn")
+states/Attack_Left/position = Vector2(139, 451)
 states/Attack_Right/node = SubResource("AnimationNodeAnimation_w8dms")
-states/Attack_Right/position = Vector2(744, 100)
+states/Attack_Right/position = Vector2(762, 100)
+states/End/position = Vector2(1220, 100)
+states/Idle_Left/node = SubResource("AnimationNodeAnimation_yi73o")
+states/Idle_Left/position = Vector2(139, 295)
 states/Idle_Right/node = SubResource("AnimationNodeAnimation_78hgb")
 states/Idle_Right/position = Vector2(322, 100)
 states/Start/position = Vector2(66, 100)
+states/Walk_Left/node = SubResource("AnimationNodeAnimation_v6q5p")
+states/Walk_Left/position = Vector2(503, 451)
 states/Walk_Right/node = SubResource("AnimationNodeAnimation_3vrsq")
 states/Walk_Right/position = Vector2(503, 215)
-transitions = ["Start", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_w8dms"), "Idle_Right", "Walk_Right", SubResource("AnimationNodeStateMachineTransition_78hgb"), "Walk_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_3vrsq"), "Idle_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_nngsn"), "Walk_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_yi73o"), "Attack_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_v6q5p")]
+transitions = ["Start", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_w8dms"), "Idle_Right", "Walk_Right", SubResource("AnimationNodeStateMachineTransition_78hgb"), "Walk_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_3vrsq"), "Idle_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_nngsn"), "Walk_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_yi73o"), "Attack_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_v6q5p"), "Idle_Left", "Walk_Left", SubResource("AnimationNodeStateMachineTransition_rdmh2"), "Walk_Left", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_xvrf0"), "Idle_Left", "Attack_Left", SubResource("AnimationNodeStateMachineTransition_esnnp"), "Walk_Left", "Attack_Left", SubResource("AnimationNodeStateMachineTransition_h38ru"), "Attack_Left", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_nh0tm"), "Idle_Left", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_baip7"), "Idle_Right", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_7d13t"), "Walk_Right", "Walk_Left", SubResource("AnimationNodeStateMachineTransition_ex4tk"), "Walk_Left", "Walk_Right", SubResource("AnimationNodeStateMachineTransition_rjuvg")]
 
 [node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBox", "PlayerSprite")]
 script = ExtResource("1_c0jjw")
