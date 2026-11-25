@@ -13,8 +13,9 @@ public partial class Player : CharacterBody2D
 	private AnimationNodeStateMachinePlayback animationStateMachine;
 	
 	[Export] public float Speed { get; set; } = 250.0f;
-	[Export] public CollisionShape2D AttackHitBox;
-	[Export] public AnimatedSprite2D PlayerSprite;
+	[Export] public CollisionShape2D AttackHitBoxRight;
+	[Export] public CollisionShape2D AttackHitBoxLeft;
+	//[Export] public AnimatedSprite2D PlayerSprite;
 	
 	public override void _Ready()
 	{
@@ -24,6 +25,8 @@ public partial class Player : CharacterBody2D
 		
 		animationTree.Active = true;
 		animationStateMachine.Start("Idle_Right");
+
+		DisableAttackHitboxes();
 	}
 	
 	public override void _PhysicsProcess(double delta)
@@ -41,6 +44,7 @@ public partial class Player : CharacterBody2D
 			}
 			if(attackAnimationStarted && !inAttackState)
 			{
+				DisableAttackHitboxes();
 				isAttacking = false;
 				attackAnimationStarted = false;
 				fighterState = FighterState.Idle;
@@ -102,5 +106,31 @@ public partial class Player : CharacterBody2D
 		
 		animationStateMachine.Travel(
 			facingRight ? "Attack_Right" : "Attack_Left");
+	}
+
+	public void DisableAttackHitboxes()
+	{
+		AttackHitBoxRight.SetDeferred("disabled", true);
+		AttackHitBoxLeft.SetDeferred("disabled", true);
+	}
+
+	public void EnableAttackHitbox()
+	{
+		DisableAttackHitboxes();
+
+		if (!isAttacking)
+		{
+			return;
+		}
+
+		if (facingRight)
+		{
+			AttackHitBoxRight.SetDeferred("disabled", false);
+		}
+
+		else
+		{
+			AttackHitBoxLeft.SetDeferred("disabled", false);
+		}
 	}
 }

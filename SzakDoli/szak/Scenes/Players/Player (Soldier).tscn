@@ -493,6 +493,23 @@ tracks/1/keys = {
 "update": 1,
 "values": [0, 1, 2, 3, 4, 5]
 }
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.26666668, 0.53333336),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"EnableAttackHitbox"
+}, {
+"args": [],
+"method": &"DisableAttackHitboxes"
+}]
+}
 
 [sub_resource type="Animation" id="Animation_3vrsq"]
 resource_name = "Attack_Right"
@@ -520,6 +537,23 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1, 1, 1, 1, 1),
 "update": 1,
 "values": [0, 1, 2, 3, 4, 5]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath(".")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.3, 0.6333333),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"EnableAttackHitbox"
+}, {
+"args": [],
+"method": &"DisableAttackHitboxes"
+}]
 }
 
 [sub_resource type="Animation" id="Animation_xlq4j"]
@@ -856,10 +890,10 @@ states/Walk_Right/node = SubResource("AnimationNodeAnimation_3vrsq")
 states/Walk_Right/position = Vector2(503, 215)
 transitions = ["Start", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_w8dms"), "Idle_Right", "Walk_Right", SubResource("AnimationNodeStateMachineTransition_78hgb"), "Walk_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_3vrsq"), "Idle_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_nngsn"), "Walk_Right", "Attack_Right", SubResource("AnimationNodeStateMachineTransition_yi73o"), "Attack_Right", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_v6q5p"), "Idle_Left", "Walk_Left", SubResource("AnimationNodeStateMachineTransition_rdmh2"), "Walk_Left", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_xvrf0"), "Idle_Left", "Attack_Left", SubResource("AnimationNodeStateMachineTransition_esnnp"), "Walk_Left", "Attack_Left", SubResource("AnimationNodeStateMachineTransition_h38ru"), "Attack_Left", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_nh0tm"), "Idle_Left", "Idle_Right", SubResource("AnimationNodeStateMachineTransition_baip7"), "Idle_Right", "Idle_Left", SubResource("AnimationNodeStateMachineTransition_7d13t"), "Walk_Right", "Walk_Left", SubResource("AnimationNodeStateMachineTransition_ex4tk"), "Walk_Left", "Walk_Right", SubResource("AnimationNodeStateMachineTransition_rjuvg")]
 
-[node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBox", "PlayerSprite")]
+[node name="Player(soldier)" type="CharacterBody2D" node_paths=PackedStringArray("AttackHitBoxRight", "AttackHitBoxLeft")]
 script = ExtResource("1_c0jjw")
-AttackHitBox = NodePath("AttackHitBox")
-PlayerSprite = NodePath("AnimatedSprite2D")
+AttackHitBoxRight = NodePath("AttackHitBox_R/attackhitboxr")
+AttackHitBoxLeft = NodePath("AttackHitBox_L/attackhitboxl")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 sprite_frames = SubResource("SpriteFrames_xvrf0")
@@ -869,19 +903,27 @@ animation = &"Attack (Right)"
 position = Vector2(-1, 0)
 shape = SubResource("CapsuleShape2D_n3bdk")
 
-[node name="HurtBox" type="CollisionShape2D" parent="."]
+[node name="HurtBox" type="Area2D" parent="."]
+
+[node name="hurtbox" type="CollisionShape2D" parent="HurtBox"]
 position = Vector2(-1, -1)
 shape = SubResource("RectangleShape2D_jvgx1")
 debug_color = Color(1, 0.0073951455, 0.07459927, 0.41960785)
 
-[node name="AttackHitBox" type="CollisionShape2D" parent="."]
+[node name="AttackHitBox_R" type="Area2D" parent="."]
+
+[node name="attackhitboxr" type="CollisionShape2D" parent="AttackHitBox_R"]
 position = Vector2(13, 0)
 shape = SubResource("RectangleShape2D_c0jjw")
+disabled = true
 debug_color = Color(0.8635196, 0.35790402, 0.05573096, 0.41960785)
 
-[node name="AttackHitBox2" type="CollisionShape2D" parent="."]
+[node name="AttackHitBox_L" type="Area2D" parent="."]
+
+[node name="attackhitboxl" type="CollisionShape2D" parent="AttackHitBox_L"]
 position = Vector2(-15, 0)
 shape = SubResource("RectangleShape2D_c0jjw")
+disabled = true
 debug_color = Color(0.8635196, 0.35790402, 0.05573096, 0.41960785)
 
 [node name="Camera2D" type="Camera2D" parent="."]

@@ -4,4 +4,3 @@ res://Scenes/TileSets/oriental_garden.tres
 res://Scenes/TileSets/military.tres
 res://Script/Player.cs
 res://Script/Main.cs
-res://Script/IState.cs
